@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Genie Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/logo/favicon.png",
   "colors": {
     "primary": "#9563FF",
     "light": "#AE87FF",
@@ -22,34 +22,27 @@
     {
       "name": "Support",
       "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "Request Access",
+      "url": "https://tally.so/r/nGpLyp"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://app.trygenie.ai"
   },
   "tabs": [
+    {
+      "name": "Python SDK",
+      "url": "python-sdk-reference"
+    },
     {
       "name": "API Reference",
       "url": "api-reference"
     }
   ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
   ],
   "navigation": [
     {
@@ -63,6 +56,10 @@
     {
       "group": "API Documentation",
       "pages": ["api-reference/authentication"]
+    },
+    {
+      "group": "Python SDK",
+      "pages": ["python-sdk-reference/authentication"]
     },
     {
       "group": "Endpoint Examples",
